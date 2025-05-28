@@ -267,7 +267,7 @@ footer .credit a {
     flex-wrap: wrap;
   }
   .about .about-content .gambar img {
-    height: 24rem;
+    height: 27rem;
     object-fit: cover;
     object-position: center;
     display: flex;
