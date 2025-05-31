@@ -181,6 +181,7 @@ nav li:first-child {
   color: #ffffff;
   background-color: #f7d127;
   border-radius: 1rem;
+  transition: background-color 0.3s;
 }
 
 .hero .content .cta:hover {
