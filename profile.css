@@ -190,7 +190,7 @@ nav li:first-child {
 }
 
 .about {
-  padding: 5rem 7% 1.4rem;
+  padding: 5rem 7% 3.5rem;
 }
 
 .about h3 {
@@ -220,7 +220,7 @@ nav li:first-child {
 
 .about .about-content .konten p {
   margin-bottom: 0.8rem;
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 100;
   line-height: 1.8;
   text-align: justify;
@@ -230,7 +230,6 @@ footer {
   background-color: #393e46;
   text-align: center;
   padding: 1rem 0;
-  margin-top: 3rem;
 }
 
 footer .sosmed {
@@ -257,7 +256,7 @@ footer .credit a {
 
 @media (max-width: 1366px) {
   html {
-    font-size: 90%;
+    font-size: 73%;
   }
 }
 
@@ -289,6 +288,11 @@ footer .credit a {
     object-position: center;
     display: flex;
     justify-content: center;
+  }
+}
+@media (max-width: 1024px) {
+  html {
+    font-size: 70%;
   }
 }
 
