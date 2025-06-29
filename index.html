@@ -18,8 +18,9 @@
       rel="stylesheet"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Varela+Round&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
       rel="stylesheet"
+    />
     />
   </head>
   <body>
@@ -31,7 +32,7 @@
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#">Portofolio</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#sosmed">Contact</a></li>
         </ul>
         <ul class="garis">
           <li>
@@ -39,8 +40,8 @@
           </li>
           <li class="hiddenMobile"><a href="#home">Home</a></li>
           <li class="hiddenMobile"><a href="#about">About</a></li>
-          <li class="hiddenMobile"><a href="#">Portofolio</a></li>
-          <li class="hiddenMobile"><a href="#">Contact</a></li>
+          <li class="hiddenMobile"><a href="#ex">Portofolio</a></li>
+          <li class="hiddenMobile"><a href="#sosmed">Contact</a></li>
           <li>
             <a class="brand"
               ><span class="material-icons" onclick="toggleSidebar()"
@@ -86,43 +87,68 @@
 
     <section class="hero" id="home">
       <main class="content">
-        <h1>Hi, Im Ahmad</h1>
+        <h1><span>Hi,</span> Im Ahmad</h1>
         <p>
           Selamat Datang di Website MyProfile. Explore my work and feel free<br />
           to reach out if you're interested in collaborating or discussing your
           project needs.
         </p>
-        <a href="My CV.pdf" target="_blank" class="cta">View CV</a>
+        <a href="My CV.pdf" target="_blank" class="cta" id="cvButton"
+          >View CV</a
+        >
       </main>
     </section>
 
     <section id="about" class="about">
-      <h3>About Me</h3>
+      <h3>About <span>Me</span></h3>
 
       <div class="about-content">
         <div class="gambar">
-          <img src="image/upscalemedia-transformed.png" alt="Ahmad" />
+          <img src="image/profile.jpg" alt="Ahmad" />
         </div>
         <div class="konten">
           <p>
-            Nama saya Ahmad Faiz Irhamta, seorang pribadi yang antusias
-            dan terus belajar, dengan minat besar di bidang teknologi. Saya
-            memiliki latar belakang di SMKN 2 Surakarta jurusan Teknik Jaringan
-            Komputer dan Telekomunikasi dan senang bekerja secara kolaboratif
-            maupun mandiri. Saya dikenal sebagai orang yang teliti, mudah
-            beradaptasi, dan selalu berusaha memberikan yang terbaik dalam
-            setiap tugas. Di waktu luang, saya menikmati berolahraga, yang
-            membantu saya menjaga keseimbangan antara pekerjaan dan kehidupan
-            pribadi.
+            Nama saya Ahmad Faiz Irhamta, seorang pribadi yang antusias dan
+            terus belajar, dengan minat besar di bidang teknologi. Saya memiliki
+            latar belakang di SMKN 2 Surakarta jurusan Teknik Jaringan Komputer
+            dan Telekomunikasi dan senang bekerja secara kolaboratif maupun
+            mandiri. Saya dikenal sebagai orang yang teliti, mudah beradaptasi,
+            dan selalu berusaha memberikan yang terbaik dalam setiap tugas.
           </p>
+          <q>Be yourself, everyone else is already taken.</q>
+        </div>
+      </div>
+    </section>
+
+    <section class="ex" id="ex">
+      <h3>Expe<span>rience</span></h3>
+
+      <div class="isi">
+        <div class="ex1">
+          <img src="image/computer_12756594.png" class="imgb" />
+          <h4>IT Support</h4>
+          <p>• Menginstal dan mengonfigurasi sistem operasi dan aplikasi</p>
+          <p>• Melakukan troubleshooting terhadap hardware & software</p>
+          <p>• Maintenance sistem komputer dan jaringan</p>
+          <p>• Instalasi jaringan LAN</p>
+        </div>
+        <div class="ex2">
+          <img src="image/statistics_9743202.png" class="imgb" />
+          <h4>Digital Marketing</h4>
+          <p>• Melakukan riset kata kunci dan memperbaiki struktur website</p>
+          <p>• Membuat konten menarik seperti artikel dan video ntuk promosi</p>
+          <p>• Membuat konten dan menganalisis performa media sosial</p>
+          <p>• Mengelola program afiliasi dan bekerja sama dengan mitra</p>
         </div>
       </div>
     </section>
 
     <!--footer-->
     <footer>
-      <div class="sosmed">
-        <a href="https://www.instagram.com/paiz_ska?igsh=c21mNGE5M2dsZmEx" target="_blank"
+      <div class="sosmed" id="sosmed">
+        <a
+          href="https://www.instagram.com/paiz_ska?igsh=c21mNGE5M2dsZmEx"
+          target="_blank"
           ><i data-feather="instagram"></i
         ></a>
         <a href="#"><i data-feather="facebook"></i></a>
